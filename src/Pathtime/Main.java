@@ -6,21 +6,21 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
-
-import gnu.trove.map.hash.TShortDoubleHashMap;
-import gnu.trove.map.hash.TShortShortHashMap;
-import gnu.trove.iterator.TShortDoubleIterator;
-import gnu.trove.set.hash.TShortHashSet;
-import gnu.trove.set.hash.TIntHashSet;
-import gnu.trove.map.hash.TShortDoubleHashMap;
-import gnu.trove.iterator.TShortIterator;
-import gnu.trove.iterator.TShortDoubleIterator;
-import gnu.trove.list.linked.TIntLinkedList;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 import org.javatuples.Pair;
 import org.javatuples.Quintet;
-import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
+
+import gnu.trove.TShortDoubleHashMap;
+import gnu.trove.TShortDoubleIterator;
+import gnu.trove.TShortHashSet;
+import gnu.trove.TShortIterator;
+import gnu.trove.list.linked.TIntLinkedList;
 
 public class Main {
 	// Class to compare path based on their cost
